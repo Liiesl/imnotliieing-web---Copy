@@ -1,0 +1,10 @@
+name = "firebase-config-worker" # Choose a unique name for your worker
+main = "getFirebaseConfig-worker.js" # Path to your worker script
+compatibility_date = "2023-10-30" # Use a recent date
+
+# Add your Firebase environment variables here as secrets
+# You would typically set these using `wrangler secret put VARIABLE_NAME`
+# or via the Cloudflare dashboard for actual secrets.
+# For non-secret vars, you can use [vars]
+# [vars]
+# FIREBASE_PROJECT_ID = "your-project-id"
